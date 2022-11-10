@@ -17,6 +17,10 @@ I am also interested in <strong>AutoML and Neural Architecture Search</strong> a
 
 <h2> News </h2>
 <ul>
+  <li>
+  <strong>2022-11-04</strong> New paper Preprint: <strong><a href="https://michailchatzianastasis.github.io/publication/wlhn">Weisfeiler and Leman go Hyperbolic: Learning Distance Preserving Node
+Representations</a> </strong> 
+  </li>
   <li> <strong> 2022-06-28 </strong> We presented our paper <strong><a href="https://michailchatzianastasis.github.io/publication/goat">Graph Ordering Attention Networks</a> </strong> in the <a href="https://hannes-stark.com/logag-reading-group">LoGaG: Learning on Graphs and Geometry Reading Group. </a> <strong> <a href="https://www.youtube.com/watch?v=9CJs5TL-CSs">[Video]</a> </strong>
 
   <li> <strong> 2022-06-13</strong> Pleased to anounce that our paper <strong> <a href="https://www.biorxiv.org/content/10.1101/2022.06.22.497214v1"> Mass Enhanced Node Embeddings for Drug Repurposing 
