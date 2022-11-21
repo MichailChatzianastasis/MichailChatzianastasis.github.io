@@ -18,8 +18,7 @@ I am also interested in <strong>AutoML and Neural Architecture Search</strong> a
 
 <h2> News </h2>
 <ul>
-  <li> Pleased to announce that our paper <strong><a href="https://michailchatzianastasis.github.io/publication/goat">Graph Ordering Attention Networks</a> has been accepted at AAAI 2023!
-  </li>
+  <li> <strong> 2022-11-21 </strong> Pleased to announce that our paper <strong><a href="https://michailchatzianastasis.github.io/publication/goat">Graph Ordering Attention Networks</a> has been accepted at AAAI 2023!
   <li>
   <strong>2022-11-04</strong> New paper Preprint: <strong><a href="https://michailchatzianastasis.github.io/publication/wlhn">Weisfeiler and Leman go Hyperbolic: Learning Distance Preserving Node
 Representations</a> </strong> 
