@@ -27,16 +27,9 @@ Representations</a> </strong>
 
   <li> <strong> 2022-06-13</strong> Pleased to anounce that our paper <strong> <a href="https://www.biorxiv.org/content/10.1101/2022.06.22.497214v1"> Mass Enhanced Node Embeddings for Drug Repurposing 
   </a> </strong> with Giannis Nikolentzos and Michalis Vazirgiannis, was accepted at ICML Workshop on Computational Biology 2022. 
-  <li> <strong> 2022-06-13</strong> I will be a reviewer at NeurIPS 2022 (5 papers).
   <li> <strong>2022-06-01</strong> I will spend this summer at <a href="https://www.simonsfoundation.org/grant/2022-flatiron-machine-learning-x-science-summer-school/"> Flatiron's Machine Learning Summer School </a> in New York, working on graph neural networks for cancer risk prediction.
-  <li>
-  <strong>2022-02-16</strong> New paper Preprint: <strong><a href="https://michailchatzianastasis.github.io/publication/goat">Graph Ordering Attention Networks</a> </strong> 
-  </li>
   <li>We present our paper <strong><a href="https://michailchatzianastasis.github.io/publication/operation_embeddings_for_nas">Graph-based Neural Architecture Search with Operation Embeddings</a> </strong>  at <a href="https://neural-architecture-ppf.github.io/">ICCV 2021 NAS Workshop </a>. 
   <a href="https://arxiv.org/abs/2105.04885">Paper</a>, <a href="https://github.com/MichailChatzianastasis/Graph-based_NAS_with_Operation_Embeddings">Code</a>,  <a href="https://www.youtube.com/watch?v=-rZ4tpNvL6s&t=1s">Video</a>, <a href="https://github.com/MichailChatzianastasis/Graph-based_NAS_with_Operation_Embeddings/blob/master/ Graph_based_neural_architecture_search_with_operation_embeddings_ICCV.pdf">Poster</a> 
-  </li>
-  <li>
-  <strong> 2021-05-11 </strong> New paper Preprint: <strong><a href="https://michailchatzianastasis.github.io/publication/operation_embeddings_for_nas">Graph-based Neural Architecture Search with Operation Embeddings</a> </strong> 
   </li>
 
 
