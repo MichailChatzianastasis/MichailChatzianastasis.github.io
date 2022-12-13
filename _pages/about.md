@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
  
-I am a second year PhD student at the [Data Science and Mining Team](http://www.lix.polytechnique.fr/dascim/) of the Computer Science Laboratory at [École Polytechnique](https://www.polytechnique.edu/en), advised by Prof. [Michalis Vazirgiannis](http://www.lix.polytechnique.fr/~mvazirg/). In 2022 I did an internship at Simons Foundation, Flatiron Institute, in New York, in the field of graph neural networks for cancer gene prediction.
+I am a second year PhD student at the [Data Science and Mining Team](http://www.lix.polytechnique.fr/dascim/) of the Computer Science Laboratory at [École Polytechnique](https://www.polytechnique.edu/en), advised by Prof. [Michalis Vazirgiannis](http://www.lix.polytechnique.fr/~mvazirg/). In 2022 I did an internship at Simons Foundation, Flatiron Institute, in New York, in the field of graph neural networks for cancer gene prediction, under the supervision of Prof. [Zijun Frank Zhang](https://scholar.google.com/citations?user=YDl3mfgAAAAJ&hl=en).
 Previously, I graduated from the School of Electrical and Computer Engineering at the [National Technical University of Athens (NTUA)](https://www.ece.ntua.gr/en). During my undergraduate studies, I worked as a Machine Learning Researcher in [Laboratory of Algebraic and
 Geometric Algorithms](http://erga.di.uoa.gr/) at [National and Kapodistrian University of Athens](https://www.di.uoa.gr/en) under the supervision of  Prof. [Ioannis Emiris](https://scholar.google.gr/citations?user=ZK6y-cIAAAAJ&hl=en). I also successfully completed Google Summer of Code 2019, advised by Prof. [Iraklis Varlamis](https://scholar.google.gr/citations?user=SUyTkTAAAAAJ&hl=en)
 
