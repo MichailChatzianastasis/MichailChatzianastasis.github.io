@@ -8,12 +8,12 @@ redirect_from:
   - /about.html
 ---
  
-I am a second year PhD student at the [Data Science and Mining Team](http://www.lix.polytechnique.fr/dascim/) of the Computer Science Laboratory at [École Polytechnique](https://www.polytechnique.edu/en), advised by Prof. [Michalis Vazirgiannis](http://www.lix.polytechnique.fr/~mvazirg/). In 2022 I did an internship at Simons Foundation, Flatiron Institute, in New York, in the field of graph neural networks for cancer gene prediction, under the supervision of Prof. [Zijun Frank Zhang](https://scholar.google.com/citations?user=YDl3mfgAAAAJ&hl=en).
-Previously, I graduated from the School of Electrical and Computer Engineering at the [National Technical University of Athens (NTUA)](https://www.ece.ntua.gr/en). During my undergraduate studies, I worked as a Machine Learning Researcher in [Laboratory of Algebraic and
+I am currently pursuing my PhD at the [Data Science and Mining Team](http://www.lix.polytechnique.fr/dascim/) of the Computer Science Laboratory at [École Polytechnique](https://www.polytechnique.edu/en), under the superbision of Prof. [Michalis Vazirgiannis](http://www.lix.polytechnique.fr/~mvazirg/). In 2022, I completed an internship at Flatiron Institute's Simons Foundation in New York, where I worked on the application of graph neural networks for cancer gene prediction under the guidance of Prof. [Zijun Frank Zhang](https://scholar.google.com/citations?user=YDl3mfgAAAAJ&hl=en).
+Prior to this,, I graduated from the School of Electrical and Computer Engineering at the [National Technical University of Athens (NTUA)](https://www.ece.ntua.gr/en). During my undergraduate studies, I worked as a Machine Learning Researcher in [Laboratory of Algebraic and
 Geometric Algorithms](http://erga.di.uoa.gr/) at [National and Kapodistrian University of Athens](https://www.di.uoa.gr/en) under the supervision of  Prof. [Ioannis Emiris](https://scholar.google.gr/citations?user=ZK6y-cIAAAAJ&hl=en). I also successfully completed Google Summer of Code 2019, advised by Prof. [Iraklis Varlamis](https://scholar.google.gr/citations?user=SUyTkTAAAAAJ&hl=en)
 
-My research focus on the field of <strong>machine learning for graph-structured data</strong>. My goal is to explore novel deep learning architectures for graphs and apply them in real-world applications like drug discovery and reccomendation systems. Currently, I am researching new types of pooling aggregators in <strong>Graph Neural Networks (GNN)</strong> and how they affect the expressive power of GNNs.
-I am also interested in <strong>AutoML and Neural Architecture Search</strong> and I am researching how can we apply graph representation learning techniques in these domains.  
+My research interests lie in the field of <strong>machine learning for graph-structured data</strong>, with a focus on developing innovative deep learning architectures for graphs and applying them to real-world problems such as drug discovery and recommendation systems. My current work involves researching new types of pooling aggregators in <strong>Graph Neural Networks (GNN)</strong> and their contribution to the expressive power of GNNs.
+I am also exploring the application of graph representation learning techniques in the fields of <strong>AutoML</strong> and <strong>Neural Architecture Search</strong>.
 
 
 <h2> News </h2>
