@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/wlhn
 excerpt: "In this paper, we define a distance function between nodes which is based on the hierarchy produced by the WL algorithm, and propose a model that learns representations which preserve those distances between nodes. Since the emerging hierarchy corresponds to a tree, to learn these representations, we capitalize on recent advances in the field of hyperbolic neural networks."
 date: '2022-11-04'
-venue: 'Preprint'
+venue: '<a href="http://aistats.org/aistats2023/">AISTATS 2023</a>''
 paperurl: 'https://arxiv.org/pdf/2211.02501.pdf'
 citation: 'Giannis Nikolentzos, Michail Chatzianastasis, Michalis Vazirgiannis'
 abstract: "In recent years, graph neural networks (GNNs)
