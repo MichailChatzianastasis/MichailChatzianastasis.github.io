@@ -18,6 +18,7 @@ I am also exploring the application of graph representation learning techniques 
 
 <h2> News </h2>
 <ul>
+  <li> <strong> 2023-06-29 </strong> Our paper "Supervised Attention Using Homophily in Graph Neural Networks" has been accepted at ICANN 2023!
   <li> <strong> 2023-02-16 </strong> Our paper <strong><a href="https://arxiv.org/pdf/2302.05894.pdf">NEURAL ARCHITECTURE SEARCH WITH MULTIMODAL FUSION METHODS FOR DIAGNOSING DEMENTIA</a> </strong> has been accepted at ICASSP 2023!
   <li> New paper preprint <strong><a href="https://arxiv.org/pdf/2301.08831.pdf">Explainable Multilayer Graph Neural Network for Cancer Gene Prediction</a> </strong>  </li>
   <li> <strong> 2023-01-23 </strong> Our paper <strong><a href="https://michailchatzianastasis.github.io/publication/wlhn">Weisfeiler and Leman go Hyperbolic: Learning Distance Preserving Node Representations</a> </strong> has been accepted at AISTATS 2023!
