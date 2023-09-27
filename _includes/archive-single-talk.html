@@ -27,7 +27,7 @@
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a>
+        {{title}}
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
@@ -37,7 +37,7 @@
     {% endif %}
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
     {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{ post.venue }}  {{post.location}} {% endif %}
-    {% if post.venue2%}<p class="archive__item-excerpt" itemprop="description"><a href="{{post.link1}}">{{ post.venue1 }}</a>,<a href="{{post.link2}}">{{ post.venue2}}</a>  {{post.location}} {% endif %}
+    {% if post.venue2%}<p class="archive__item-excerpt" itemprop="description"><a href="{{post.link1}}">{{ post.venue1 }}</a><br><a href="{{post.link2}}">{{ post.venue2}}</a>  {{post.location}} {% endif %}
 
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
   </article>
