@@ -13,7 +13,5 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  <li>
   {% include archive-single.html %}
-  </li>
 {% endfor %}
