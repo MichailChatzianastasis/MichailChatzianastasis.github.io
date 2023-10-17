@@ -19,7 +19,7 @@ I am also exploring the application of graph representation learning techniques 
 
 <h2> News </h2>
 <ul>
-<li> <strong> 2023-10-17 </strong> Our paper <strong><a href="https://arxiv.org/pdf/2301.08831.pdf">Explainable Multilayer Graph Neural Network for Cancer Gene Prediction</a> </strong> has been accepted at Bioinformatics.
+<li> <strong> 2023-10-17 </strong> Our paper <strong><a href="https://arxiv.org/pdf/2301.08831.pdf">Explainable Multilayer Graph Neural Network for Cancer Gene Prediction</a> </strong> has been accepted at Bioinformatics!
   <li> <strong> 2023-06-29 </strong> Our paper "Supervised Attention Using Homophily in Graph Neural Networks" has been accepted at ICANN 2023!
   <li> <strong> 2023-02-16 </strong> Our paper <strong><a href="https://arxiv.org/pdf/2302.05894.pdf">Neural Architecture Search with Multimodal Fusion Methods for Diagnosing Demenntia</a> </strong> has been accepted at ICASSP 2023!
   <li> New paper preprint <strong><a href="https://arxiv.org/pdf/2301.08831.pdf">Explainable Multilayer Graph Neural Network for Cancer Gene Prediction</a> </strong>  </li>
