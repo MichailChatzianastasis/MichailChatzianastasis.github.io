@@ -12,12 +12,14 @@ I am currently pursuing my PhD at the [Data Science and Mining Team](http://www.
 Prior to this, I graduated from the School of Electrical and Computer Engineering at the [National Technical University of Athens (NTUA)](https://www.ece.ntua.gr/en). During my undergraduate studies, I worked as a Machine Learning Researcher in [Laboratory of Algebraic and
 Geometric Algorithms](http://erga.di.uoa.gr/) at [National and Kapodistrian University of Athens](https://www.di.uoa.gr/en) under the supervision of  Prof. [Ioannis Emiris](https://scholar.google.gr/citations?user=ZK6y-cIAAAAJ&hl=en). I also successfully completed Google Summer of Code 2019, advised by Prof. [Iraklis Varlamis](https://scholar.google.gr/citations?user=SUyTkTAAAAAJ&hl=en)
 
-My research interests lie in the field of <strong>machine learning for graph-structured data</strong>, with a focus on developing innovative deep learning architectures for graphs and applying them to real-world problems such as drug discovery and recommendation systems. My current work involves researching new types of pooling aggregators in <strong>Graph Neural Networks (GNN)</strong> and their contribution to the expressive power of GNNs.
+My research interests lie in the field of <strong>machine learning for graph-structured data</strong>, with a focus on developing innovative deep learning architectures for graphs and applying them to real-world problems such as drug discovery and recommendation systems. 
+My current research interests are directed towards the creation of multimodal generative models for protein representation learning, combining both graph and text data, using <strong>Graph Neural Networks</strong> and <strong>LLMs</strong>.
 I am also exploring the application of graph representation learning techniques in the fields of <strong>AutoML</strong> and <strong>Neural Architecture Search</strong>.
 
 
 <h2> News </h2>
 <ul>
+<li> <strong> 2023-10-17 </strong> Our paper <strong><a href="https://arxiv.org/pdf/2301.08831.pdf">Explainable Multilayer Graph Neural Network for Cancer Gene Prediction</a> </strong> has been accepted at Bioinformatics.
   <li> <strong> 2023-06-29 </strong> Our paper "Supervised Attention Using Homophily in Graph Neural Networks" has been accepted at ICANN 2023!
   <li> <strong> 2023-02-16 </strong> Our paper <strong><a href="https://arxiv.org/pdf/2302.05894.pdf">Neural Architecture Search with Multimodal Fusion Methods for Diagnosing Demenntia</a> </strong> has been accepted at ICASSP 2023!
   <li> New paper preprint <strong><a href="https://arxiv.org/pdf/2301.08831.pdf">Explainable Multilayer Graph Neural Network for Cancer Gene Prediction</a> </strong>  </li>
