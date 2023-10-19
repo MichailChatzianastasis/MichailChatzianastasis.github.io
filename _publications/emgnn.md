@@ -5,7 +5,7 @@ permalink: /publication/emgnn
 excerpt: "We introduce an Explainable Multilayer Graph Neural Network (EMGNN) approach to identify cancer genes by leveraging multiple gene-gene interaction networks
 and pan-cancer multi-omics data. [Read More](https://michailchatzianastasis.github.io/publication/emgnn)"
 date: '2023-10-19'
-venue: 'Bioinformatics, Oxford Academic'
+venue: '<a href="https://academic.oup.com/bioinformatics">Bioinformatics, Oxford Academic</a>'
 paperurl: 'https://arxiv.org/abs/2301.08831'
 citation: '<strong>Michail Chatzianastasis</strong>, Michalis Vazirgiannis, Zijun Zang'
 abstract: " Motivation: The identification of cancer genes is a critical yet challenging problem in cancer genomics research. Existing
