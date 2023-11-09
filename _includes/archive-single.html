@@ -12,6 +12,17 @@
   {% assign title = post.title %}
 {% endif %}
 
+
+<style>
+  a[href$='.pdf'] {    
+    display:inline-block;    
+    line-height:18px; /* check your icon height */    
+    padding-right:20px;    
+    background: transparent url(images/pdf.jpeg)  center right no-repeat;    
+}   
+
+</style>
+
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
