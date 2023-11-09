@@ -2,7 +2,7 @@
 title: "Supervised Attention Using Homophily in Graph Neural Networks"
 collection: publications
 permalink: /publication/supervised_homo
-excerpt: "We propose a new technique that can be incorporated into any graph attention model to encourage higher attention scores between nodes that share the same class label. [Read More](https://michailchatzianastasis.github.io/publication/supervised_homo)"
+excerpt: "We propose a new technique that can be incorporated into any graph attention model to encourage higher attention scores between nodes that share the same class label."
 date: '2022-11-03'
 venue: ' <a href="https://e-nns.org/icann2023/">ICANN 2023</a>'
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-031-44216-2_47'

@@ -2,7 +2,7 @@
 title: "Graph-based Neural Architecture Search with Operation Embeddings"
 collection: publications
 permalink: /publication/operation_embeddings_for_nas
-excerpt: " We propose the replacement of fixed operator encoding with learnable representations in the optimization process. [Read More](https://michailchatzianastasis.github.io/publication/operation_embeddings_for_nas) "
+excerpt: " We propose the replacement of fixed operator encoding with learnable representations in the optimization process."
 date: '2021-05-11'
 venue: '<a href="https://neural-architecture-ppf.github.io/"> ICCV 2021 Workshop on Neural Architectures: Past, Present and Future </a>'
 video : 'https://www.youtube.com/watch?v=-rZ4tpNvL6s'

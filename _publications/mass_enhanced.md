@@ -5,7 +5,7 @@ permalink: /publication/mass_enhanced
 excerpt: "We propose a node embedding algorithm for the problem of drug repurposing. The
 proposed algorithm learns node representations that capture the
 influence of nodes in the biological network by learning a mass term
-for each node along with its embedding. [Read More](https://michailchatzianastasis.github.io/publication/mass_enhanced)"
+for each node along with its embedding."
 date: '2022-06-10'
 venue: ' <a href="https://icml-compbio.github.io">ICML 2022 Workshop on Computational Biology</a> and  <a href="https://hilab.di.ionio.gr/setn2022"> 12th EETN Conference on Artificial Intelligence (SETN 2022)</a> '
 

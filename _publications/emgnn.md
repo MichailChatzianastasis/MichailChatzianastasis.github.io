@@ -3,10 +3,11 @@ title: "Explainable Multilayer Graph Neural Network for Cancer Gene Prediction"
 collection: publications
 permalink: /publication/emgnn
 excerpt: "We introduce an Explainable Multilayer Graph Neural Network (EMGNN) approach to identify cancer genes by leveraging multiple gene-gene interaction networks
-and pan-cancer multi-omics data. [Read More](https://michailchatzianastasis.github.io/publication/emgnn)"
+and pan-cancer multi-omics data."
 date: '2023-10-19'
 venue: '<a href="https://academic.oup.com/bioinformatics">Bioinformatics, Oxford Academic</a>'
-paperurl: 'https://arxiv.org/abs/2301.08831'
+paperurl: 'https://academic.oup.com/bioinformatics/article/39/11/btad643/7325352'
+code: 'https://github.com/zhanglab-aim/EMGNN'
 citation: '<strong>Michail Chatzianastasis</strong>, Michalis Vazirgiannis, Zijun Zang'
 abstract: " <strong>Motivation</strong>: The identification of cancer genes is a critical yet challenging problem in cancer genomics research. Existing
 computational methods, including deep graph neural networks, fail to exploit the multilayered gene-gene interactions or

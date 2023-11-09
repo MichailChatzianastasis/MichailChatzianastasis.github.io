@@ -2,7 +2,7 @@
 title: "Neural Architecture Search with Multimodal Fusion Methods for Diagnosing Dementia"
 collection: publications
 permalink: /publication/nas_multimodal_dementia
-excerpt: "We propose a multimodal deep learning approach to combine speech and text modalities for recognizing Alzheimer’s dementia (AD) using Neural Architecture Search. [Read More](https://michailchatzianastasis.github.io/publication/nas_multimodal_dementia)"
+excerpt: "We propose a multimodal deep learning approach to combine speech and text modalities for recognizing Alzheimer’s dementia (AD) using Neural Architecture Search."
 date: '2023-02-16'
 venue: ' <a href="https://2023.ieeeicassp.org/">ICASSP 2023</a>'
 paperurl: 'https://arxiv.org/pdf/2302.05894.pdf'
