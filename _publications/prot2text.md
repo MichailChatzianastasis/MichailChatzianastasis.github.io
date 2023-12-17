@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/prot2text
 excerpt: "We propose Prot2Text, which predicts a protein function's in a free text style, moving beyond the conventional binary or categorical classifications. By combining Graph Neural Networks(GNNs) and Large Language Models(LLMs), in an encoder-decoder framework, our model effectively integrates diverse data types including proteins' sequences, structures, and textual annotations."
 date: '2023-10-27'
-venue: ' <a href="https://sites.google.com/ethz.ch/dgm4h-neurips2023/home?authuser=0">Spotlight at DGM4H Neurips 2023</a> and <a href="https://ai4sciencecommunity.github.io/neurips23.html">AI4Science Neurips 2023</a>'
+venue: ' AAAI 2024, <a href="https://sites.google.com/ethz.ch/dgm4h-neurips2023/home?authuser=0">Spotlight at DGM4H Neurips 2023</a> and <a href="https://ai4sciencecommunity.github.io/neurips23.html">AI4Science Neurips 2023</a>'
 paperurl: 'https://arxiv.org/abs/2307.14367.pdf'
 demo: "http://nlp.polytechnique.fr/prot2text#proteins"
 citation: 'Hadi Abdine, <strong>Michail Chatzianastasis</strong>, Costas Bouyioukos, Michalis Vazirgiannis'
