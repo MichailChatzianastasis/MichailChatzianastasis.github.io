@@ -17,7 +17,7 @@ I am deeply passionate about <strong>machine learning on graph-structured data</
 
 <h2> News </h2>
 <ul>
-<li> <strong> 2023-01-15 </strong> Happy to serve as a mentor at <strong> LOGML Summer School 2024 </strong></li>
+<li> <strong> 2023-01-15 </strong> Happy to serve as a mentor at <strong><a href="https://www.logml.ai/"> LOGML Summer School 2024 </a> </strong></li>
 <li> <strong> 2023-12-09</strong> Our paper <strong><a href="https://arxiv.org/abs/2307.14367">Prot2Text: Multimodal Protein's Function Generation with GNNs and Transformers</a> </strong> has been accepted at <strong>AAAI 2024!</strong> </li>
 <li> <strong> 2023-10-27 </strong> Our paper <strong><a href="https://arxiv.org/abs/2307.14367">Prot2Text: Multimodal Protein's Function Generation with GNNs and Transformers</a> </strong> has been accepted as <strong>spotlight</strong> at DGM4H and AI4Science at NeurIPS 2023!
 <li> <strong> 2023-10-17 </strong> Our paper <strong><a href="https://arxiv.org/pdf/2301.08831.pdf">Explainable Multilayer Graph Neural Network for Cancer Gene Prediction</a> </strong> has been accepted at <strong>Bioinformatics</strong>!
