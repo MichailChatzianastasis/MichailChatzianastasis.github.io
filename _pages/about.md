@@ -7,8 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
- 
-I am a PhD student at the [Data Science and Mining Team](http://www.lix.polytechnique.fr/dascim/) of the Computer Science Laboratory at [École Polytechnique](https://www.polytechnique.edu/en), under the supervision of Prof. [Michalis Vazirgiannis](http://www.lix.polytechnique.fr/~mvazirg/). In 2022, I completed an internship at [Flatiron Institute](https://www.simonsfoundation.org/flatiron/) of Simons Foundation in New York, where I worked on the application of graph neural networks for cancer gene prediction under the guidance of Prof. [Zijun Frank Zhang](https://scholar.google.com/citations?user=YDl3mfgAAAAJ&hl=en).
+I am working as a ML Research Scientist at [Natera](https://www.natera.com/) in the Therapeutics AI team. 
+Previously, I obtained my PhD at the [Data Science and Mining Team](http://www.lix.polytechnique.fr/dascim/) of the Computer Science Laboratory at [École Polytechnique](https://www.polytechnique.edu/en), under the supervision of Prof. [Michalis Vazirgiannis](http://www.lix.polytechnique.fr/~mvazirg/). In 2022, I completed an internship at [Flatiron Institute](https://www.simonsfoundation.org/flatiron/) of Simons Foundation in New York, where I worked on the application of graph neural networks for cancer gene prediction under the guidance of Prof. [Zijun Frank Zhang](https://scholar.google.com/citations?user=YDl3mfgAAAAJ&hl=en).
 Prior to this, I graduated from the School of Electrical and Computer Engineering at the [National Technical University of Athens (NTUA)](https://www.ece.ntua.gr/en). During my undergraduate studies, I worked as a Machine Learning Researcher in [Laboratory of Algebraic and
 Geometric Algorithms](http://erga.di.uoa.gr/) at [National and Kapodistrian University of Athens](https://www.di.uoa.gr/en) under the supervision of  Prof. [Ioannis Emiris](https://scholar.google.gr/citations?user=ZK6y-cIAAAAJ&hl=en). I also successfully completed Google Summer of Code 2019.
 
