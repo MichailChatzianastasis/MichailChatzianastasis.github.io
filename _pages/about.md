@@ -17,6 +17,8 @@ I am deeply passionate about <strong>machine learning on graph-structured data</
 
 <h2> News </h2>
 <ul>
+<li> <strong> 2025-07-15 </strong> Joined <strong>Natera</strong> as a <strong>ML Research Scientist</strong>!
+<li> <strong> 2025-04-10 </strong> I successfully defended my PhD thesis titled <strong>Advancements in Graph Representation Learning and Applications in Computational Biology</strong> <a href="https://theses.hal.science/tel-05118611/">https://theses.hal.science/tel-05118611/</a>. 
 <li> <strong> 2024-06-01 </strong> I am starting a <strong>research internship</strong> at <strong>InstaDeep</strong> working on GNNs and LLMs for genomics. 
 <li> <strong> 2023-01-15 </strong> Happy to serve as a mentor at <strong><a href="https://www.logml.ai/"> LOGML Summer School 2024 </a> </strong></li>
 <li> <strong> 2023-12-09</strong> Our paper <strong><a href="https://arxiv.org/abs/2307.14367">Prot2Text: Multimodal Protein's Function Generation with GNNs and Transformers</a> </strong> has been accepted at <strong>AAAI 2024!</strong> </li>
