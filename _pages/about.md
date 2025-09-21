@@ -7,19 +7,23 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am working as a ML Research Scientist at [Natera](https://www.natera.com/) in the Therapeutics AI team. 
-Previously, I obtained my PhD at the [Data Science and Mining Team](http://www.lix.polytechnique.fr/dascim/) of the Computer Science Laboratory at [École Polytechnique](https://www.polytechnique.edu/en), under the supervision of Prof. [Michalis Vazirgiannis](http://www.lix.polytechnique.fr/~mvazirg/). In 2022, I completed an internship at [Flatiron Institute](https://www.simonsfoundation.org/flatiron/) of Simons Foundation in New York, where I worked on the application of graph neural networks for cancer gene prediction under the guidance of Prof. [Zijun Frank Zhang](https://scholar.google.com/citations?user=YDl3mfgAAAAJ&hl=en).
+I am a Machine Learning Research Scientist at [Natera](https://www.natera.com/) in the Therapeutics AI team, where I focus on developing genomic large language models (LLMs) for clinical applications and designing deep learning methods for neoantigen prediction in cancer immunotherapy.
+Previously, I obtained my PhD at the [Data Science and Mining Team](http://www.lix.polytechnique.fr/dascim/) of the Computer Science Laboratory at [École Polytechnique](https://www.polytechnique.edu/en), under the supervision of Prof. [Michalis Vazirgiannis](http://www.lix.polytechnique.fr/~mvazirg/). 
+In 2024, I completed an internship at [InstaDeep](https://www.instadeep.com/) working on graph neural networks and single cell foundation models.
+In 2022, I completed an internship at [Flatiron Institute](https://www.simonsfoundation.org/flatiron/) of Simons Foundation in New York, where I worked on the application of graph neural networks for cancer gene prediction under the guidance of Dr. [Zijun Frank Zhang](https://scholar.google.com/citations?user=YDl3mfgAAAAJ&hl=en).
 Prior to this, I graduated from the School of Electrical and Computer Engineering at the [National Technical University of Athens (NTUA)](https://www.ece.ntua.gr/en). During my undergraduate studies, I worked as a Machine Learning Researcher in [Laboratory of Algebraic and
 Geometric Algorithms](http://erga.di.uoa.gr/) at [National and Kapodistrian University of Athens](https://www.di.uoa.gr/en) under the supervision of  Prof. [Ioannis Emiris](https://scholar.google.gr/citations?user=ZK6y-cIAAAAJ&hl=en). I also successfully completed Google Summer of Code 2019.
 
-I am deeply passionate about <strong>machine learning on graph-structured data</strong>. My research focuses on developing neural network architectures for graphs, aiming to solve real-world challenges, particularly in domains such as drug discovery and recommendation systems. At present, my research endeavors are directed towards the development of multimodal generative models for <strong>protein representation learning</strong>. This involves the fusion of graph and text data, leveraging <strong>Graph Neural Networks (GNNs)</strong> and <strong>Large Language Models (LLMs)</strong>. I am also exploring the application of graph representation learning techniques in other fields such as AutoML and Neural Architecture Search.
+My research interests lie at the intersection of machine learning, graph representation learning, and foundation models for biology. I am particularly interested in developing methods that combine structured, multimodal, and generative approaches to better model complex biological systems. Beyond biology, I am also exploring how these advances can contribute to broader areas such as automated machine learning.
 
 
 <h2> News </h2>
 <ul>
-<li> <strong> 2025-07-15 </strong> Joined <strong>Natera</strong> as a <strong>ML Research Scientist</strong>!
+<li> <strong> 2025-09-19 </strong> Our paper <strong><a href=https://arxiv.org/abs/2505.11194>Prot2Text-V2: Protein Function Prediction with Multimodal Contrastive Alignment
+</a> </strong> has been accepted at <strong>NeurIPS 2025</strong>!
+<li> <strong> 2025-07-15 </strong> I joined <strong>Natera</strong> as a <strong>ML Research Scientist</strong>!
 <li> <strong> 2025-04-10 </strong> I successfully defended my PhD thesis titled <strong>Advancements in Graph Representation Learning and Applications in Computational Biology</strong> <a href="https://theses.hal.science/tel-05118611/">https://theses.hal.science/tel-05118611/</a>. 
-<li> <strong> 2024-06-01 </strong> I am starting a <strong>research internship</strong> at <strong>InstaDeep</strong> working on GNNs and LLMs for genomics. 
+<li> <strong> 2024-06-01 </strong> I started a <strong>research internship</strong> at <strong>InstaDeep</strong> working on GNNs and LLMs for genomics. 
 <li> <strong> 2023-01-15 </strong> Happy to serve as a mentor at <strong><a href="https://www.logml.ai/"> LOGML Summer School 2024 </a> </strong></li>
 <li> <strong> 2023-12-09</strong> Our paper <strong><a href="https://arxiv.org/abs/2307.14367">Prot2Text: Multimodal Protein's Function Generation with GNNs and Transformers</a> </strong> has been accepted at <strong>AAAI 2024!</strong> </li>
 <li> <strong> 2023-10-27 </strong> Our paper <strong><a href="https://arxiv.org/abs/2307.14367">Prot2Text: Multimodal Protein's Function Generation with GNNs and Transformers</a> </strong> has been accepted as <strong>spotlight</strong> at DGM4H and AI4Science at NeurIPS 2023!
