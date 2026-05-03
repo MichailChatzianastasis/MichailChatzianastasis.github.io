@@ -19,6 +19,7 @@ My research interests lie at the intersection of machine learning, graph represe
 
 <h2> News </h2>
 <ul>
+<li> <strong> 2026-05-01 </strong> Our paper <strong><a href="https://github.com/Nicknakis/AICoG/blob/main/paper.pdf">Aitchison Embeddings for Learning Compositional Graph Representations</a> </strong> has been accepted at <strong>ICML 2026</strong>!
 <li> <strong> 2025-09-19 </strong> Our paper <strong><a href="https://arxiv.org/abs/2505.11194">Prot2Text-V2: Protein Function Prediction with Multimodal Contrastive Alignment</a> </strong> has been accepted at <strong>NeurIPS 2025</strong>!
 <li> <strong> 2025-07-15 </strong> I joined <strong>Natera</strong> as a <strong>ML Research Scientist</strong>!
 <li> <strong> 2025-04-10 </strong> I successfully defended my PhD thesis titled <strong>Advancements in Graph Representation Learning and Applications in Computational Biology</strong> <a href="https://theses.hal.science/tel-05118611/">https://theses.hal.science/tel-05118611/</a>. 
