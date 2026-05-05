@@ -909,6 +909,7 @@ html[data-theme="dark"] .site-nav__theme .icon-moon { display: none; }
 
 /* ---------- Footer ---------- */
 .page__footer {
+  display: none !important;
   background: transparent !important;
   border-top: 0 !important;
   box-shadow: none !important;
