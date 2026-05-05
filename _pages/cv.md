@@ -1,18 +1,21 @@
 ---
-layout: archive
+layout: home
 title: "CV"
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
 
-My CV is available [here](https://michailchatzianastasis.github.io/cv_chatzianastasis.pdf).
+{% include base_path %}
 
-<p style="margin-top: 1.5rem;">
-  <a class="btn" href="https://michailchatzianastasis.github.io/cv_chatzianastasis.pdf" target="_blank" rel="noopener">Open CV (PDF)</a>
-</p>
+<section class="section cv-page">
+  <div class="section__head">
+    <h1 class="section__title">Curriculum vitae</h1>
+    <a class="section__more" href="{{ base_path }}/cv_chatzianastasis.pdf" target="_blank" rel="noopener">Open PDF →</a>
+  </div>
 
-<div style="margin-top: 2rem; border: 1px solid var(--border); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md);">
-  <iframe src="https://michailchatzianastasis.github.io/cv_chatzianastasis.pdf" width="100%" height="900" style="border: 0; display: block;" title="CV preview"></iframe>
-</div>
+  <div class="cv-page__viewer">
+    <iframe src="{{ base_path }}/cv_chatzianastasis.pdf" title="Michail Chatzianastasis CV"></iframe>
+  </div>
+</section>
