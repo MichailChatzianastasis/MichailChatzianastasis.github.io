@@ -908,7 +908,12 @@ html[data-theme="dark"] .site-nav__theme .icon-moon { display: none; }
 }
 
 /* ---------- Footer ---------- */
-.page__footer { background: transparent !important; color: var(--text-muted) !important; }
+.page__footer {
+  background: transparent !important;
+  border-top: 0 !important;
+  box-shadow: none !important;
+  color: var(--text-muted) !important;
+}
 .page__footer footer { max-width: var(--container) !important; padding: 2rem 1.25rem !important; }
 .page__footer-follow {
   display: flex;

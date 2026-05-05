@@ -1,28 +1,3 @@
-{% include base_path %}
-
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.author.email %}
-      <li><a href="mailto:{{ site.author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
-    {% endif %}
-    {% if site.author.googlescholar %}
-      <li><a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Scholar</a></li>
-    {% endif %}
-    {% if site.author.github %}
-      <li><a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-    {% endif %}
-    {% if site.author.linkedin %}
-      <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
-    {% endif %}
-    {% if site.author.twitter %}
-      <li><a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" rel="noopener"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i> Twitter</a></li>
-    {% endif %}
-    {% if site.author.researchgate %}
-      <li><a href="{{ site.author.researchgate }}" target="_blank" rel="noopener"><i class="fab fa-fw fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
-    {% endif %}
-  </ul>
-</div>
-
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
   Built with <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>.
