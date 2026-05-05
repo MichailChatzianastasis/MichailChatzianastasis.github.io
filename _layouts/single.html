@@ -19,172 +19,118 @@ layout: default
     jax: ["input/TeX", "output/HTML-CSS"],
     extensions: ["tex2jax.js"],
     "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] },
-    tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" },
-    TeX: { noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } } },
+    tex2jax: { inlineMath: [ ["$","$"], ["\\(","\\)"] ], displayMath: [ ["$$","$$"], ["\\[","\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" },
     messageStyle: "none"
   });
-  </script>    
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
 
-<style>
- 
-figcaption {
-    text-align: center;
-    }
-</style>
-
-
-<style>
-  p:not(.cssonly) a.pdf-link:before {
-    /* PDF file */
-  width:32px;
-  height:32px;
-  background:url('/images/pdf_icon.png'); 
-  background-size: cover;
-  display:inline-block;
-  content:' ';
-  }
-  </style>
-  
-  <style>
-    p:not(.cssonly) a.code-link:before {
-      /* PDF file */
-    width:32px;
-    height:32px;
-    background:url('/images/github.png'); 
-    background-size: cover;
-    display:inline-block;
-    content:' ';
-    }
-    </style>
-
-    <style>
-      p:not(.cssonly) a.video-link:before {
-        /* PDF file */
-      width:32px;
-      height:32px;
-      background:url('/images/video.png'); 
-      background-size: cover;
-      display:inline-block;
-      content:' ';
-      }
-      </style>
-
-    
 <div id="main" role="main">
   {% include sidebar.html %}
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %} 
-    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}  
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-          {% if page.read_time %}
-            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+          {% if page.collection == 'publications' and page.venue %}
+            <span class="pub-venue">{{ page.venue | strip_html | strip }}</span>
           {% endif %}
-        {% if page.modified %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
 
-        {% if page.citation and page.paperurl and page.code and page.video and page.poster %}
-        <p> {{ page.citation }} <a href="{{ page.paperurl }}" class="pdf-link"> </a> <a href="{{ page.code }}" class="code-link" ></a> <a href="{{ page.video }}" class="video-link" > </a> <a href="{{ page.poster }}">[Poster]</a> </p>
-         {% elsif page.citation and page.paperurl and page.code and page.video %}
-              <p> {{ page.citation }} <a href="{{ page.paperurl }}" class="pdf-link"></a> <a href="{{ page.code }}" class="code-link"> </a> <a href="{{ page.video }}" class="video-link" > </a> </p>
-              {% elsif page.citation and page.paperurl and page.code and page.blog %}
-              <p> {{ page.citation }} <a href="{{ page.paperurl }}" class="pdf-link"></a> <a href="{{ page.code }}" class="code-link" ></a>  <a href="{{ page.blog }}">[Blog]</a> </p>
-              {% elsif page.citation and page.paperurl and page.code %}
-              <p> {{ page.citation }} <a href="{{ page.paperurl }}" class="pdf-link" ></a> <a href="{{ page.code }}"class="code-link" ></a></p>
-              {% elsif page.citation and page.paperurl %}
-              <p>{{ page.citation }} <a href="{{ page.paperurl }}" class="pdf-link"> </a> </p>
-            {% elsif page.citation %}
-              <p>{{ page.citation }} </p>
-            {% elsif page.paperurl %}
-           <p> <a href="{{ page.paperurl }}" class = "pdf-link"></a></p>
-        {% endif %}
-      
-        {% if page.collection == 'teaching' %}
-        <p> {{ page.type }}, <i>{{ page.venue }}</i> </p>
-      {% elsif page.venue and page.date %}
-        <p>Published: <i>{{ page.venue }}</i> </p>
-      {% elsif page.date %}
-        <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-      {% endif %}
-      
-            {% if page.abstract %}
-            <p>
-              {{ page.abstract}}
-            </p>
-            {% endif %}
-      
-            {% if page.figure_1 and page.width_1 %}
-            <p>
-              <img src="https://michailchatzianastasis.github.io/files/{{page.figure_1}}"   alt="Image" width="{{page.width_1}}}"> </div>
-              <figcaption> <div> {{page.caption_1}} </div> </figcaption>
-            </p>
-            {% elsif page.figure_1 %}
-            <p>
-              <img src="https://michailchatzianastasis.github.io/files/{{page.figure_1}}"   alt="Image" width="500"> </div>
-              <figcaption> <div> {{page.caption_1}} </div> </figcaption>
-            </p>
-            {% endif %}
-      
-            {% if page.figure_2 and page.width_2 %}
-            <p>
-              <img src="https://michailchatzianastasis.github.io/files/{{page.figure_2}}"  alt="Image" width="{{page.width_2}}" > </div>
-              <figcaption> <div> {{page.caption_2}} </div> </figcaption>
-            </p>
-            {% elsif page.figure_2 %}
-            <p>
-              <img src="https://michailchatzianastasis.github.io/files/{{page.figure_2}}" alt="Image" width="500" > </div>
-              <figcaption > <div>
-              {{page.caption_2}}
-            </div> 
-            </figcaption>
-            </p>
-            {% endif %}
-      
-            </header>
-            {% endunless %}
-      
-            <section class="page__content" itemprop="text">
-              {{ content }}
-              {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-            </section>
-      
-            <footer class="page__meta">
-              {% if site.data.ui-text[site.locale].meta_label %}
-                <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
-              {% endif %}
-              {% include page__taxonomy.html %}
-            </footer>
-      
-            {% if page.share %}{% include social-share.html %}{% endif %}
-      
-            {% include post_pagination.html %}
-          </div>
-      
-          {% if site.comments.provider and page.comments %}
-            {% include comments.html %}
+          {% if page.title %}
+            <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
           {% endif %}
-        </article>
-      
-        {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
-        {% if page.id and page.related and site.related_posts.size > 0 %}
-          <div class="page__related">
-            {% if site.data.ui-text[site.locale].related_label %}
-              <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
-            {% endif %}
-            <div class="grid__wrapper">
-              {% for post in site.related_posts limit:4 %}
-                {% include archive-single.html type="grid" %}
-              {% endfor %}
+
+          {% if page.citation %}
+            <p class="pub-citation">{{ page.citation }}</p>
+          {% endif %}
+
+          {% if page.collection == 'publications' %}
+            <div class="pub-actions">
+              {% if page.paperurl %}
+                <a class="pub-action" href="{{ page.paperurl }}" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                  Paper
+                </a>
+              {% endif %}
+              {% if page.code %}
+                <a class="pub-action" href="{{ page.code }}" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                  Code
+                </a>
+              {% endif %}
+              {% if page.video %}
+                <a class="pub-action" href="{{ page.video }}" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                  Video
+                </a>
+              {% endif %}
+              {% if page.poster %}
+                <a class="pub-action" href="{{ page.poster }}" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                  Poster
+                </a>
+              {% endif %}
+              {% if page.blog %}
+                <a class="pub-action" href="{{ page.blog }}" target="_blank" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                  Blog
+                </a>
+              {% endif %}
             </div>
-            {% endif %}
-          </div>
+          {% endif %}
+
+          {% if page.collection == 'teaching' %}
+            <p>{{ page.type }}{% if page.venue %}, <i>{{ page.venue }}</i>{% endif %}{% if page.location %} · {{ page.location }}{% endif %}</p>
+          {% endif %}
+
+          {% if page.abstract %}
+            <h2 style="margin-top:2rem;">Abstract</h2>
+            <p>{{ page.abstract }}</p>
+          {% endif %}
+
+          {% if page.figure_1 %}
+            <figure style="margin: 1.5rem 0;">
+              <img src="{{ base_path }}/files/{{ page.figure_1 }}" alt="Figure 1" style="max-width: 100%; height: auto;{% if page.width_1 %} width: {{ page.width_1 }}px;{% endif %}">
+              {% if page.caption_1 %}<figcaption>{{ page.caption_1 }}</figcaption>{% endif %}
+            </figure>
+          {% endif %}
+
+          {% if page.figure_2 %}
+            <figure style="margin: 1.5rem 0;">
+              <img src="{{ base_path }}/files/{{ page.figure_2 }}" alt="Figure 2" style="max-width: 100%; height: auto;{% if page.width_2 %} width: {{ page.width_2 }}px;{% endif %}">
+              {% if page.caption_2 %}<figcaption>{{ page.caption_2 }}</figcaption>{% endif %}
+            </figure>
+          {% endif %}
+        </header>
+      {% endunless %}
+
+      <section class="page__content" itemprop="text">
+        {{ content }}
+        {% if page.link %}<div style="margin-top:1.5rem;"><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+      </section>
+
+      {% include post_pagination.html %}
+    </div>
+
+    {% if site.comments.provider and page.comments %}
+      {% include comments.html %}
+    {% endif %}
+  </article>
+
+  {% if page.id and page.related and site.related_posts.size > 0 %}
+    <div class="page__related">
+      {% if site.data.ui-text[site.locale].related_label %}
+        <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
+      {% endif %}
+      <div class="grid__wrapper">
+        {% for post in site.related_posts limit:4 %}
+          {% include archive-single.html type="grid" %}
+        {% endfor %}
       </div>
-      
-      
+    </div>
+  {% endif %}
+</div>

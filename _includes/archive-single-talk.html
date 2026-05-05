@@ -1,40 +1,19 @@
 {% include base_path %}
 
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
-
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = post.title %}
-{% endif %}
-
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
-      </div>
-    {% endif %}
-    <h3 class="archive__item-title" itemprop="headline">
-        <a href="{{post.link}}"> {{title}} </a>
-    </h3>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    <!-- {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %} -->
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{ post.venue }}  {{post.location}} {% endif %}
-    {% if post.venue2%}<p class="archive__item-excerpt" itemprop="description"><a href="{{post.link1}}">{{ post.venue1 }}</a><br><a href="{{post.link2}}">{{ post.venue2}}</a>  {{post.location}} {% endif %}
-
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
-  </article>
+<div class="talk-row">
+  <div>
+    <div class="talk-row__date">{{ post.date | date: '%b %Y' }}</div>
+    {% if post.type %}<div style="font-size:0.72rem; color: var(--text-subtle); margin-top: 0.2rem; text-transform: uppercase; letter-spacing: 0.05em;">{{ post.type }}</div>{% endif %}
+  </div>
+  <div>
+    <div class="talk-row__venue">{{ post.title }}</div>
+    <p class="talk-row__title">
+      {% if post.link %}
+        <a href="{{ post.link }}" target="_blank" rel="noopener">{{ post.venue }}</a>
+      {% else %}
+        {{ post.venue }}
+      {% endif %}
+      {% if post.location %} · <span style="color: var(--text-subtle);">{{ post.location }}</span>{% endif %}
+    </p>
+  </div>
 </div>

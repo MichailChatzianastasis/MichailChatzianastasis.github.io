@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Michail Chatzianastasis"
 title_separator          : "-"
 name                     : &name "Michail Chatzianastasis"
-description              : &description "personal description"
+description              : &description "Personal site of Michail Chatzianastasis — ML Research Scientist working on genomic LLMs, graph neural networks, and foundation models for biology."
 url                      : https://michailchatzianastasis.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "michailchatzianastasis/michailchatzianastasis.github.io"
@@ -83,7 +83,7 @@ analytics:
 author:
   name             : "Michail Chatzianastasis"
   avatar           : "profile.png"
-  bio              : "PhD Student @ École polytechnique."
+  bio              : "ML Research Scientist @ Natera. Previously PhD @ École Polytechnique."
   location         : "Paris, France"
   employer         :
   pubmed           :  

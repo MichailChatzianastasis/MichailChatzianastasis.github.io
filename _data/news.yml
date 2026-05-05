@@ -1,0 +1,57 @@
+# News entries shown on the homepage timeline.
+# Order doesn't matter; the template sorts by date desc.
+# Use HTML inside `body` for links / emphasis.
+
+- date: 2026-05-01
+  body: 'Our paper <a href="https://github.com/Nicknakis/AICoG/blob/main/paper.pdf"><strong>Aitchison Embeddings for Learning Compositional Graph Representations</strong></a> has been accepted at <strong>ICML 2026</strong>! <span class="badge">ICML 2026</span>'
+
+- date: 2025-09-19
+  body: 'Our paper <a href="https://arxiv.org/abs/2505.11194"><strong>Prot2Text-V2: Protein Function Prediction with Multimodal Contrastive Alignment</strong></a> has been accepted at <strong>NeurIPS 2025</strong>! <span class="badge">NeurIPS 2025</span>'
+
+- date: 2025-07-15
+  body: 'I joined <strong>Natera</strong> as a <strong>ML Research Scientist</strong>!'
+
+- date: 2025-04-10
+  body: 'I successfully defended my PhD thesis: <a href="https://theses.hal.science/tel-05118611/"><strong>Advancements in Graph Representation Learning and Applications in Computational Biology</strong></a>.'
+
+- date: 2024-06-01
+  body: 'I started a <strong>research internship</strong> at <strong>InstaDeep</strong> working on GNNs and LLMs for genomics.'
+
+- date: 2024-01-15
+  body: 'Happy to serve as a mentor at the <a href="https://www.logml.ai/"><strong>LOGML Summer School 2024</strong></a>.'
+
+- date: 2023-12-09
+  body: 'Our paper <a href="https://arxiv.org/abs/2307.14367"><strong>Prot2Text: Multimodal Protein''s Function Generation with GNNs and Transformers</strong></a> has been accepted at <strong>AAAI 2024</strong>! <span class="badge">AAAI 2024</span>'
+
+- date: 2023-10-27
+  body: 'Our paper <a href="https://arxiv.org/abs/2307.14367"><strong>Prot2Text</strong></a> accepted as a <strong>spotlight</strong> at the DGM4H and AI4Science workshops at NeurIPS 2023!'
+
+- date: 2023-10-17
+  body: 'Our paper <a href="https://arxiv.org/pdf/2301.08831.pdf"><strong>Explainable Multilayer Graph Neural Network for Cancer Gene Prediction</strong></a> has been accepted at <strong>Bioinformatics</strong>! <span class="badge">Bioinformatics</span>'
+
+- date: 2023-06-29
+  body: 'Our paper <strong>Supervised Attention Using Homophily in Graph Neural Networks</strong> has been accepted at <strong>ICANN 2023</strong>!'
+
+- date: 2023-02-16
+  body: 'Our paper <a href="https://arxiv.org/pdf/2302.05894.pdf"><strong>Neural Architecture Search with Multimodal Fusion Methods for Diagnosing Dementia</strong></a> has been accepted at <strong>ICASSP 2023</strong>!'
+
+- date: 2023-01-23
+  body: 'Our paper <a href="/publication/wlhn"><strong>Weisfeiler and Leman go Hyperbolic: Learning Distance Preserving Node Representations</strong></a> has been accepted at <strong>AISTATS 2023</strong>! <span class="badge">AISTATS 2023</span>'
+
+- date: 2022-11-21
+  body: 'Our paper <a href="/publication/goat"><strong>Graph Ordering Attention Networks</strong></a> has been accepted at <strong>AAAI 2023</strong>! <span class="badge">AAAI 2023</span>'
+
+- date: 2022-11-04
+  body: 'New preprint: <a href="/publication/wlhn"><strong>Weisfeiler and Leman go Hyperbolic: Learning Distance Preserving Node Representations</strong></a>.'
+
+- date: 2022-06-28
+  body: 'Presented our paper <a href="/publication/goat"><strong>Graph Ordering Attention Networks</strong></a> at the <a href="https://hannes-stark.com/logag-reading-group">LoGaG: Learning on Graphs and Geometry Reading Group</a>. <a href="https://www.youtube.com/watch?v=9CJs5TL-CSs">[Video]</a>'
+
+- date: 2022-06-13
+  body: 'Our paper <a href="https://www.biorxiv.org/content/10.1101/2022.06.22.497214v1"><strong>Mass Enhanced Node Embeddings for Drug Repurposing</strong></a> with Giannis Nikolentzos and Michalis Vazirgiannis was accepted at the <strong>ICML 2022 Workshop on Computational Biology</strong>.'
+
+- date: 2022-06-01
+  body: 'I will spend the summer at the <a href="https://www.simonsfoundation.org/grant/2022-flatiron-machine-learning-x-science-summer-school/">Flatiron Machine Learning Summer School</a> in New York, working on graph neural networks for cancer risk prediction.'
+
+- date: 2021-10-01
+  body: 'We presented our paper <a href="/publication/operation_embeddings_for_nas"><strong>Graph-based Neural Architecture Search with Operation Embeddings</strong></a> at the <a href="https://neural-architecture-ppf.github.io/">ICCV 2021 NAS Workshop</a>.'
